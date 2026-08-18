@@ -18,3 +18,7 @@ peso = input('Qual o seu Peso?: ')
 
 print('Meu nome é ', nome, 'Tenho ', idade, 'anos e peso', peso, 'kg.' )
 
+# Ao usar o Input o valor digitado sempre será considerado como string, mesmo que seja digitado numero inteiro ou com decimal.
+# Para que o valor digitado seja considerado como numero inteiro ou decimal, é necessario usar a função int() ou float() respectivamente.Exemplo:
+n1 = int(input('Digite um numero inteiro: '))
+n2 = float(input('Digite um numero decimal: '))
