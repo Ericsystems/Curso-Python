@@ -11,4 +11,6 @@ while len(alunos) > 0:
     sorteado = alunos[sorteio]
     alunos2.append(sorteado)
     alunos.remove(sorteado)
-print('A ordem de apresentação do trabalho é 1°{}, 2°{}, 3°{}, e 4°{}'.format(alunos2[0], alunos2[1], alunos2[2], alunos2[3]))
+print('A ordem de apresentação do trabalho é 1° {}, 2° {}, 3° {}, e 4° {}'.format(alunos2[0], alunos2[1], alunos2[2], alunos2[3]))
+
+# É possivel substituir toda a estrutura while usando apenas a função random.shuffle(lista), essa função embaralha os elementos da lista, apos isso é so imprimir a lista na tela que vai estar sorteada, ao inves de chamar cada aluno por sua posição... mas ainda chamaria por posição pela beleza da apresentação.
