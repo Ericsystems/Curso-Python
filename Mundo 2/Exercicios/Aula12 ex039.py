@@ -14,6 +14,6 @@ if idade < hora_de_alistar:
 elif idade == hora_de_alistar:
     print('Dirija-se ate a base do serviço militar mais proxima para se apresentar, vocÊ está na idade de alistamento obrigatorio!')
 else:
-    print('Você ja passou do tempo de alistamento.')
+    print('Você ja passou do tempo de alistamento, devia ter se alistado {} anos atrás.'.format(idade - hora_de_alistar))
 
 

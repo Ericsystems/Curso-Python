@@ -16,7 +16,7 @@ prazo_mensal = prazo_em_anos * 12
 prestacao = valorimovel / prazo_mensal
 trinta = Salariocomprador * 0.30
 
-if prestacao < trinta:
+if prestacao <= trinta:
     print('Parabéns, sua compra foi APROVADA')
     sleep(1)
     print('A prestação será R${:.2f} durante o prazo de {} meses.'.format(prestacao, prazo_mensal))
