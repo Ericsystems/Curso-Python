@@ -5,8 +5,12 @@
 # 3x ou mais no cartão: 20% de juros
 
 from time import sleep
-preco = float(input('Valor: '))
-qtd = int(input('Quantidade: '))
+print('-=-' * 20)
+print('                    CENTRAL DE COMPRAS')
+print('-=-' * 20)
+print('INFORMAÇÕES DO PRODUTO: ')
+preco = float(input('Valor R$: '))
+qtd = int(input('Quantidade (un): '))
 total = preco * qtd
 print('-=-' * 20)
 print('               SELECIONE A FORMA DE PAGAMENTO')
