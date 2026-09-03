@@ -27,4 +27,4 @@ else:
     print('Salario R${:.2f}, Limite de segurança R${:.2f}'.format(Salariocomprador, trinta))
     print('A prestação mensal não pode ultrapassar 30% do salario do comprador, que é R${:.2f}'.format(trinta))
 
-"Apenas testando comandos do git"
+"Teste 2 dos comandos git"
