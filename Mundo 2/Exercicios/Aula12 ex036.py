@@ -25,3 +25,4 @@ else:
     sleep(1)
     print('De acordo com os dados informados, a prestação de R${:.2f}, ultrapassa o limite de segurança do seu salario.'.format(prestacao))
     print('Salario R${:.2f}, Limite de segurança R${:.2f}'.format(Salariocomprador, trinta))
+    print('A prestação mensal não pode ultrapassar 30% do salario do comprador, que é R${:.2f}'.format(trinta))
